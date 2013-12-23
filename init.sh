@@ -4,7 +4,8 @@
 . ./server.conf
 #****************************************
 #This sets up the connect-out.
-ztcp -d 4 $irc-server $irc-server-port
+#MUST USE CAMELCASE LOL
+ztcp -d 4 $ircServer $ircServerPort
 . ./s2s/$proto.sh
 for i in $mods; do
 	. ./pclients/$i.sh
