@@ -7,6 +7,9 @@
 #MUST USE CAMELCASE LOL
 ztcp -d 4 $ircServer $ircServerPort
 . ./s2s/$proto.sh
+
+# here we set up the communication between the server and the pseudoclients.
+# A client is supposed to ignore messages not addressed to it.
 for i in $mods; do
 	. ./pclients/$i.sh
 done
