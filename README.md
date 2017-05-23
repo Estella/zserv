@@ -1,3 +1,11 @@
+This file is horrifically out of date. I'm no longer j4jackj, I'm no longer a he, and 'm0n'
+doesn't bloody know me.
+
+I must have been high on something. - Ellenor Malik
+
+
+
+
 The ZIRC Services Program
 =====
 
